@@ -1,5 +1,5 @@
 # Pokédex
-React app displaying 5 pokémon. Consists of two components, a Pokedex and (a child component) a Pokecard. 
+This app uses React to allow users to search a pokémon name, with picture and data about that pokemon then being displayed. 
 
 ## Installation
 - git clone the repo.
@@ -8,4 +8,3 @@ React app displaying 5 pokémon. Consists of two components, a Pokedex and (a ch
 - Call `npm run dev` in the terminal.
 - Go to `http://localhost:5173/` in the browser.
 
-![Pokedex screenshot](./public/Screenshot.png)
