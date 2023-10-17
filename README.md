@@ -8,4 +8,4 @@ React app displaying 5 pokémon. Consists of two components, a Pokedex and (a ch
 - Call `npm run dev` in the terminal.
 - Go to `http://localhost:5173/` in the browser.
 
-![Pokedex screenshot](.\public\Screenshot.png)
+![Pokedex screenshot](./public/Screenshot.png)
