@@ -1,10 +1,35 @@
-import React, {useState} from "react"
-import {Pokedex} from "./components"
+import React, { useState, useEffect } from "react"
+import { Profile, PokeForm } from "./components"
+import "./App.css"
 
 export default function App() {
-  return(
+
+  const [inputText, setInputText] = useState("")
+  const [toSearch, setToSearch] = useState("")
+  const [showComponent, setShowComponent] = useState(false)
+ 
+
+  return (
     <>
-    <Pokedex/>
+      <div className="app-div">
+        <h1>Gotta' Catch 'em All!</h1>
+        {showComponent &&
+          <Profile
+            toSearch={toSearch} />
+        }
+        {!showComponent &&
+          <div>
+            <h2>Enter a pokemon to find out more!</h2>
+            <img src="../public/pokeball.png" alt="pokeball" id="pokeball" />
+          </div>
+        }
+
+        <PokeForm
+          inputText={inputText}
+          setInputText={setInputText}
+          setToSearch={setToSearch}
+          setShowComponent={setShowComponent} />
+      </div>
     </>
   )
 }

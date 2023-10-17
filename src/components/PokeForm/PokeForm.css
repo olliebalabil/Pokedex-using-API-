@@ -1,0 +1,35 @@
+/* Style for the form container */
+.form-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Style for the text input */
+.input-field {
+  width: 60%;
+  padding: 10px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style for the submit button */
+.submit-button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Hover effect for the submit button */
+.submit-button:hover {
+  background-color: #0056b3;
+}
