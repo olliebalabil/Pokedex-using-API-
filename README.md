@@ -1,5 +1,5 @@
 # Pokédex
-This app uses React to allow users to search a pokémon name, with picture and data about that pokemon then being displayed. 
+This app uses React to allow users to search a pokémon name, with picture and data about that pokemon then being displayed. Testing using vitest has been added.
 
 ## Installation
 - git clone the repo.
